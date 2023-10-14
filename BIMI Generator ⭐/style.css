@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: General Sans;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #121212;
+    color: #fff;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    padding: 10px 40px;
+    margin: 10px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    color: #212121;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav a:hover{
+    background-color: #212121;
+    color: #fff;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    color: cornflowerblue;
+    font-weight: 900;
+}
+form{
+    width: 70%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    padding: 2px;
+    margin: 10px;
+}
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.input input{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border:2px solid;
+    font-size: 20px;
+}
+.input input:focus{
+    border-color: cornflowerblue;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+}
+.btn button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    transition: .3s;
+    
+}
+.btn button:hover{
+   background-color: cornflowerblue;    
+}
+.weight-guid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.weight-guid h3{
+    color: cornflowerblue;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.weight-guid p{
+    font-size: 15px;
+}
+.owner{
+    float: right;
+     margin: 20px;
+ }
+ .output h1{
+    margin-top: 10px;
+    color: chocolate;
+ }
+ .output p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+ }
