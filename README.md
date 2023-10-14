@@ -7,3 +7,4 @@ five different javascript project⭐
 ## BIMI Generator
 ## Digital Clock
 ## Unlimited Color
+https://moumin-pk.github.io/Javascript-project/
