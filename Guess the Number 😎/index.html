@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Numbert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="../index.html">Home</a>
+        <a href="https://github.com/Moumin-pk" target="_blank">GitHub</a>
+    </div>
+    <div class="container">
+
+        <div class="text-section">
+        <h1>Number Guessing Game</h1>
+        <p>Try and guess a random number between 1 and 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+        </div>
+
+        <form class="form">
+            <div class="input">
+                <label for="guessField" id="guess">Guess a Number</label>
+                    <input type="text" id="guessField" class="guessField">
+            </div>
+            <div class="btn">
+                <button type="submit" value="Submit guess" class="guessSubmit">Submit</button>
+            </div>
+        </form>
+
+        <div class="resultParas">
+            <p >Previous Guesses</p>
+            
+            <div class="prev-guess">
+            </div>
+
+            <p >Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi">mmm</p>
+        </div>
+    </div>
+    <div class="owner">
+        <h5>Create by : Moumin Ahmad</h5>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

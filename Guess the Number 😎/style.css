@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: General Sans;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #121212;
+    color: #fff;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+.nav a{
+    padding: 10px 40px;
+    margin: 10px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    color: #212121;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav a:hover{
+    background-color: #212121;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-section{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.text-section h1{
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: green;
+}
+.text-section p{
+    font-size: 12px;
+}
+
+.form{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.form input{
+    width: 95%;
+    padding :8px;
+    margin: 5px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 3px solid ;
+    outline: none;
+}
+.form input:focus{
+    border-color: green;
+}
+.input label{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+}
+form .btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 95%;
+    padding: 8px;
+    background-color: green;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .4s;
+}
+button:hover{
+    /* background-color: #fff; */
+    color: #fff;
+}
+.resultParas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.resultParas p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.resultParas .lastResult,.guesses{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+.guesses{
+    padding: 3px;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    margin:;
+}
+.prev-guess{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+.prev-guess div{
+    padding: 2px 5px;
+    text-align: center;
+    background-color: green;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.owner{
+    float: right;
+     margin: 20px;
+ }
