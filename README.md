@@ -13,6 +13,7 @@ An interactive application that allows users to change the background color with
 ## BIMI Generator: 🖼️
 A tool for generating Brand Indicators for Message Identification (BIMI) images. BIMI enhances email security and branding, and this generator simplifies the process.
 ### ScreenShot: 
+![Screenshot 2023-10-19 221709](https://github.com/Moumin-pk/Javascript-project/assets/116239910/60574b1f-1362-4126-9876-9e57009fd747)
 
 ## Digital Clock: ⏰
 A digital clock that displays the current time in a user-friendly format. It's a handy tool for keeping track of time while working or just for reference.
@@ -30,8 +31,7 @@ Visit the homepage to navigate to these exciting JavaScript projects and enjoy t
 ### ScreenShot: 
 ![Screenshot 2023-10-19 223324](https://github.com/Moumin-pk/Javascript-project/assets/116239910/38d14e3e-dc07-4893-ac2d-445c7755def3)
 
---------------------CLICK ME [DEMO]()
-
+---------------------------------------------------------------------------------[DEMO](https://moumin-pk.github.io/Javascript-project/)----------------------------------------------------------------------------
 
 
 
